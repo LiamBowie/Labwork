@@ -23,6 +23,7 @@
                     <label>Please Specify</label><input type="text" name="otherskill">
                     <br>
                 </div>
+                <a href="http://1206499-labwork.azurewebsites.net/Lab2Act2/HeroResponse.php"><input type="submit" value="submit"></a>
         </form>
     </body>
 </html>
