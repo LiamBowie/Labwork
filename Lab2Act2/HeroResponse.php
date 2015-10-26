@@ -7,7 +7,7 @@
         $flight = $_POST["flight"];
 
 
-        echo $forename ." ". $surname ." is a " . $gender . " " . $flight;
+        echo $forename ." ". $surname ." is a " . $gender . " your powers are " . $flight;
         ?>
     </body>
 </html>
