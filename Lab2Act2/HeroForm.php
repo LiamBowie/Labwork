@@ -1,13 +1,12 @@
 <html>
     <body>
         <form action="HeroResponse" method="post">
-            <ul>
-                <li><label>Forename</label><input type="text" name="forename"></li>
-                <li><label>Surname</label><input type="text" name="surname"></li>
-                <li><label>Gender</label></li>
-                <li><input type="radio" value="male" name="gender">Male</li>
-                <li><input type="radio" value="female" name="gender">Female</li>
-            </ul>
+                <p><label>Forename</label><input type="text" name="forename"></p>
+                <p><label>Surname</label><input type="text" name="surname"></p>
+                <div><label>Gender</label>
+                    <p><input type="radio" value="male" name="gender">Male</p>
+                    <p><input type="radio" value="female" name="gender">Female</p>
+                </div>
         </form>
     </body>
 </html>
