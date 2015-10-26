@@ -4,22 +4,22 @@
                 <p><label>Forename</label><input type="text" name="forename"></p>
                 <p><label>Surname</label><input type="text" name="surname"></p>
                 <div><label>Gender:</label>
-                    <p><input type="radio" value="male" name="gender">Male</p>
-                    <p><input type="radio" value="female" name="gender">Female</p>
+                    <p><input type="radio" value="Male" name="gender">Male</p>
+                    <p><input type="radio" value="Female" name="gender">Female</p>
                 </div>
                 <div>
                     Superpowers:
                     <br>
-                    <input type="checkbox" name="flight">Flight
-                    <input type="checkbox" name="invisibility">Invisibility
+                    <input type="checkbox" name="Flight">Flight
+                    <input type="checkbox" name="Invisibility">Invisibility
                     <br>
-                    <input type="checkbox" name="superstrenth">Super Strength
-                    <input type="checkbox" name="superspeed">Super Speed
+                    <input type="checkbox" name="Super Strenth">Super Strength
+                    <input type="checkbox" name="Super Speed">Super Speed
                     <br>
-                    <input type="checkbox" name="specific-weapon-skills">Specific Weapon Skills
-                    <input type="checkbox" name="super-rich">Super Rich
+                    <input type="checkbox" name="Specific Weapon Skills">Specific Weapon Skills
+                    <input type="checkbox" name="Super Rich">Super Rich
                     <br>
-                    <input type="checkbox" name="other">Other:
+                    <input type="checkbox" name="Other">Other:
                     <label>Please Specify</label><input type="text" name="otherskill">
                     <br>
                 </div>
