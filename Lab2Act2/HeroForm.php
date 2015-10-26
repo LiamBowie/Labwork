@@ -10,14 +10,14 @@
                 <div>
                     Superpowers:
                     <br>
-                    <input type="checkbox" name="Flight">Flight
-                    <input type="checkbox" name="Invisibility">Invisibility
+                    <input type="checkbox" name="powers[]" value="Flight">Flight
+                    <input type="checkbox" name="powers[]" value="Invisibility">Invisibility
                     <br>
-                    <input type="checkbox" name="Super Strenth">Super Strength
-                    <input type="checkbox" name="Super Speed">Super Speed
+                    <input type="checkbox" name="powers[]" value="Super Strength">Super Strength
+                    <input type="checkbox" name="powers[]" value="Super Speed">Super Speed
                     <br>
-                    <input type="checkbox" name="Specific Weapon Skills">Specific Weapon Skills
-                    <input type="checkbox" name="Super Rich">Super Rich
+                    <input type="checkbox" name="powers[]" value="Specific Weapon Skills">Specific Weapon Skills
+                    <input type="checkbox" name="powers[]" value="Super Rich">Super Rich
                     <br>
                     <input type="checkbox" name="Other">Other:
                     <label>Please Specify</label><input type="text" name="otherskill">
