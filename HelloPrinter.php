@@ -5,5 +5,4 @@
             echo "Hello <strong>" . $planet . "</strong>"
         ?>
     </body>
-
 </html>
