@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form action="HeroResponse" method="post">
+        <form action="HeroResponse.php" method="post">
                 <p><label>Forename</label><input type="text" name="forename"></p>
                 <p><label>Surname</label><input type="text" name="surname"></p>
                 <div><label>Gender:</label>
@@ -9,7 +9,8 @@
                 </div>
                 <div>
                     Superpowers:
-                    <input type="checkbox" name="flight">Filght
+                    <br>
+                    <input type="checkbox" name="flight">Flight
                     <input type="checkbox" name="invisibility">Invisibility
                     <br>
                     <input type="checkbox" name="superstrenth">Super Strength
@@ -18,7 +19,7 @@
                     <input type="checkbox" name="specific-weapon-skills">Specific Weapon Skills
                     <input type="checkbox" name="super-rich">Super Rich
                     <br>
-                    <input type="checkbox" name="other">Other
+                    <input type="checkbox" name="other">Other:
                     <label>Please Specify</label><input type="text" name="otherskill">
                     <br>
                 </div>
