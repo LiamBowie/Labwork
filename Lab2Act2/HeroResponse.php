@@ -9,6 +9,7 @@
         $surname = $_POST["surname"];
         $gender = $_POST["gender"];
         $powers = $_POST["powers"];
+        $str = "Your powers are: ";
 
         if(!empty($powers))
         {
@@ -16,12 +17,12 @@
             {
                 if($power)
                 {
-                    echo $power;
+                    $str += $power;
                 }
             }
         }
 
-        echo $forename ." ". $surname ." is a " . $gender . " your powers are ";
+        echo $forename ." ". $surname ." is a " . $gender . ". " . $str;
         ?>
     </body>
 </html>
