@@ -4,17 +4,20 @@
         $forename = $_POST["forename"];
         $surname = $_POST["surname"];
         $gender = $_POST["gender"];
-        $powers[] = new power[];
+        $powers = $_POST["powers[]"];
 
-        if(!empty($_POST["powers"]))
+        if(!empty($powers))
         {
-            foreach($_POST["powers"] as $power)
+            foreach($powers as $power)
             {
-                echo $power;
+                if($power)
+                {
+                    echo $power;
+                }
             }
         }
 
-        echo $forename ." ". $surname ." is a " . $gender . " your powers are " . $flight;
+        echo $forename ." ". $surname ." is a " . $gender . " your powers are ";
         ?>
     </body>
 </html>
