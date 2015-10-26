@@ -8,7 +8,7 @@
         $forename = $_POST["forename"];
         $surname = $_POST["surname"];
         $gender = $_POST["gender"];
-        $powers = $_POST["powers[]"];
+        $powers = $_POST["powers"];
 
         if(!empty($powers))
         {
