@@ -11,18 +11,18 @@
         $powers = $_POST["powers"];
         $str = "Your powers are: ";
 
+        echo $forename ." ". $surname ." is a " . $gender . ". Your powers are: ";
+
         if(!empty($powers))
         {
             foreach($powers as $power)
             {
                 if($power)
                 {
-                    $str += $power;
+                    echo $power . ", ";
                 }
             }
         }
-
-        echo $forename ." ". $surname ." is a " . $gender . ". " . $str;
         ?>
     </body>
 </html>
