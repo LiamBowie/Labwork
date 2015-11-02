@@ -9,17 +9,18 @@
                 <label>Password</label>
                 <input type="password" name="pass">
             </p>
-            <a href="http://1206499-labwork.azurewebsites.net/Lab3Act1/homepage.php"><input type="submit" value="login"></a>
+            <input type="submit" value="login"></a>
         </form>
 
         <?php
         $username = "LiamBowie";
-        $password = "IAmBossEh123";
+        $password = "NormalPass123";
 
         if($_POST["user"] == $username && $_POST["pass"] == $password)
         {
             setcookie("username", $username);
-            setcookie("access_level", "standarduser");
+            setcookie("access_level", "standard_user");
+            header("Location: homepage.php");
         }
         ?>
     </body>
