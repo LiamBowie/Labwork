@@ -25,7 +25,9 @@
             if(!isset($_SESSION['username'])) {
                 $_SESSION['username'] = $username;
             }
-            $_SESSION['access_level'] = "standard_user";
+            if(!isset($_SESSION['access_level'])) {
+                $_SESSION['access_level'] = "standard_user";
+            }
             header("Location: homepage.php");
         }
         ?>
