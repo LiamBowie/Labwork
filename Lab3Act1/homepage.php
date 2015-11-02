@@ -1,7 +1,7 @@
 <html>
     <body>
          <?php
-            displayAccessLevelInformation();
+         displayAccessLevelInformation($_COOKIE["access_level"]);
 
             function displayAccessLevelInformation($access_level)
             {
