@@ -9,7 +9,7 @@
                 <label>Password</label>
                 <input type="password" name="pass">
             </p>
-            <a href="http://1206499-labwork.azurewebsites.net/Lab3Act1/homepage.php"><input type="submit" value=""login"></a>
+            <a href="http://1206499-labwork.azurewebsites.net/Lab3Act1/homepage.php"><input type="submit" value="login"></a>
         </form>
 
         <?php
