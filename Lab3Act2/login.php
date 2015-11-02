@@ -9,10 +9,10 @@
     <body>
         <form name="form" action="#" method="post">
             <p>
-                <label>Username</label><input type="text" name="user">
+                <label>Username</label><input type="text" name="input_username">
             </p>
             <p>
-                <label>Password</label><input type="password" name="pass">
+                <label>Password</label><input type="password" name="input_password">
             </p>
             <input type="submit" value="submit">
         </form>
@@ -21,7 +21,7 @@
         $username = "LiamBowie";
         $password = "NormalPass123";
 
-        if($_POST["user"] == $username && $_POST["pass"] == $password) {
+        if($_POST["input_username"] == $username && $_POST["input_password"] == $password) {
             if(!isset($_SESSION['username'])) {
                 $_SESSION['username'] = $username;
             }
