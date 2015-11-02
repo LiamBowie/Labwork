@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form>
+        <form name="form" action="#" method="post">
             <p>
                 <label>Username</label><input type="text" name="user">
             </p>
