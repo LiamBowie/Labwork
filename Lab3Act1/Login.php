@@ -2,14 +2,12 @@
     <body>
         <form>
             <p>
-                <label>Username</label>
-                <input type="text" name="user">
+                <label>Username</label><input type="text" name="user">
             </p>
             <p>
-                <label>Password</label>
-                <input type="password" name="pass">
+                <label>Password</label><input type="password" name="pass">
             </p>
-            <input type="submit" value="login"></a>
+            <input type="submit" value="submit">
         </form>
 
         <?php
