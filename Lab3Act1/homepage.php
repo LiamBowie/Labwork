@@ -3,7 +3,7 @@
          <?php
             displayAccessLevelInformation();
 
-            function displayAccessLevelInformation($accessLevel)
+            function displayAccessLevelInformation($access_level)
             {
                 if ($access_level == "standarduser") {
                     echo "<p> you are logged in as a standard user</p>";
