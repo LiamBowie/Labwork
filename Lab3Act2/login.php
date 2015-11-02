@@ -21,8 +21,10 @@
         $username = "LiamBowie";
         $password = "NormalPass123";
 
-        $userInput_Name = $_POST["input_username"];
-        $userInputPass = $_POST['input_password'];
+        if(isset($_POST["input_username"])) {
+            $userInput_Name = $_POST["input_username"];
+            $userInputPass = $_POST['input_password'];
+        }
 
         if($userInput_Name == $username && $userInputPass == $password) {
             if(!isset($_SESSION['username'])) {
