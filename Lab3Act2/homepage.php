@@ -4,8 +4,6 @@
         <?php
         displayAccessLevelInformation($_SESSION["access_level"]);
 
-        echo "<p>access_level: </p>" . $_SESSION['access_level'];
-
         function displayAccessLevelInformation($access_level)
         {
             if ($access_level == "standard_user") {

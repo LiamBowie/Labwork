@@ -16,12 +16,8 @@
         $password = "NormalPass123";
 
         if($_POST["user"] == $username && $_POST["pass"] == $password) {
-  //          if(!isset($_SESSION['username'])) {
-                $_SESSION['username'] = $username;
-  //          }
-  //          if(!isset($_SESSION['username'])) {
-                $_SESSION['access_level'] = "standard_user";
-  //          }
+            $_SESSION['username'] = $username;
+            $_SESSION['access_level'] = "standard_user";
             header("Location: homepage.php");
         }
         ?>
