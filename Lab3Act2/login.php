@@ -20,6 +20,8 @@
         <?php
         $username = "LiamBowie";
         $password = "NormalPass123";
+        $userInput_Name;
+        $userInputPass;
 
         if(isset($_POST["input_username"])) {
             $userInput_Name = $_POST["input_username"];
