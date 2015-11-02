@@ -1,4 +1,5 @@
 <html>
+    <?php session_start() ?>
     <body>
         <form name="form" action="#" method="post">
             <p>
@@ -16,8 +17,12 @@
 
         if($_POST["user"] == $username && $_POST["pass"] == $password)
         {
-            $_SESSION['username'] = $username;
-            $_SESSION['access_level'] = "standard_user";
+            if(!isset($_SESSION['username'])) {
+                $_SESSION['username'] = $username;
+            }
+            if(!isset($_SESSION['username'])) {
+                $_SESSION['access_level'] = "standard_user";
+            }
             header("Location: homepage.php");
         }
         ?>

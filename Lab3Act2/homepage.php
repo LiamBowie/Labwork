@@ -4,6 +4,7 @@
         <?php
         displayAccessLevelInformation($_SESSION["access_level"]);
 
+
         function displayAccessLevelInformation($access_level)
         {
             echo $access_level;
