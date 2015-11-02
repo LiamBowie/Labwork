@@ -1,5 +1,11 @@
 <html>
-    <?php session_start() ?>
+    <?php
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+
+        session_start()
+    ?>
     <body>
         <form name="form" action="#" method="post">
             <p>
@@ -16,7 +22,9 @@
         $password = "NormalPass123";
 
         if($_POST["user"] == $username && $_POST["pass"] == $password) {
-            $_SESSION['username'] = $username;
+            if(!isset($_SESSION['username'])) {
+                $_SESSION['username'] = $username;
+            }
             $_SESSION['access_level'] = "standard_user";
             header("Location: homepage.php");
         }
